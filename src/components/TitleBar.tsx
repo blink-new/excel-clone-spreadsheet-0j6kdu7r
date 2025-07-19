@@ -3,18 +3,18 @@ import { Minus, Square, X } from 'lucide-react';
 
 const TitleBar: React.FC = () => {
   return (
-    <div className="h-8 bg-excel-green flex items-center justify-between px-2 text-white text-sm select-none">
-      {/* Left side - Excel icon and title */}
+    <div className="h-8 bg-excel-blue flex items-center justify-between px-2 text-white text-sm select-none">
+      {/* Left side - App icon and title */}
       <div className="flex items-center space-x-2">
         <div className="w-4 h-4 bg-white rounded-sm flex items-center justify-center">
-          <span className="text-excel-green text-xs font-bold">X</span>
+          <span className="text-excel-blue text-xs font-bold">L</span>
         </div>
-        <span className="font-normal">Microsoft Excel</span>
+        <span className="font-normal">LEVERAGE SHEETS</span>
       </div>
       
       {/* Center - Document name */}
       <div className="flex-1 text-center">
-        <span>Book1 - Excel</span>
+        <span>Workbook1 - LEVERAGE SHEETS</span>
       </div>
       
       {/* Right side - Window controls */}

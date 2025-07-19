@@ -1,9 +1,9 @@
 import React from 'react';
-import ExcelApp from './components/ExcelApp';
+import EnhancedExcelApp from './components/EnhancedExcelApp';
 import './App.css';
 
 function App() {
-  return <ExcelApp />;
+  return <EnhancedExcelApp />;
 }
 
 export default App;
